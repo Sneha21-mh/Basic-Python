@@ -1,4 +1,13 @@
 #dictionary methods
+#1. create an empty dictionary
+#2. ask user to enter name, email, mobile, city and pin from keyboard
+#3. insert above pairs into dictionary.
+#4. print all pairs of dictionary using for loop
+#5. ask user to enter a different name and replace existing name with new name in the dictionary
+#6. ask user to enter a key and if that key is available in the dictionary remove that pair
+#7. ask user to enter a value and check if that value exists in the dictionary
+#8. ask user to enter state, and insert that pair into dictionary.
+
 d={}
 name=input('Enter your name:')
 e_mail=input('Enter your e mail:')

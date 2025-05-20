@@ -21,13 +21,9 @@ else:
 x=int(input('enter the first number:'))
 y=int(input('enter the second number:'))
 z=int(input('enter the third number:'))
-if x>y:
-    if x>z:
-        print(x,'is biggest among',y ,'and', z)
-    else:
-        print(z,'is biggest among',x,'and','y')
+if (x>y) and (x>z):
+    print(x,'is biggest among',y ,'and', z)
+elif y>z:
+    print(y,'is biggest among',x,'and',z)
 else:
-    if y>z:
-        print(y,'is biggest among',x,'and',z)
-    else:
-        print(z,'is biggest among',x,'and',y)
+    print(z,'is biggest among',x,'and',y)

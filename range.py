@@ -18,10 +18,10 @@ r5=range(24,-1,-4)
 li2=list(r5)
 print(li2)
 
-r6=range(41,-10,-7)
+r6=range(41,-9,-7)
 li3=list(r6)
 print(li3)
 
-r7=range(5,42,7)
+r7=range(5,41,7)
 li4=list(r7)
 print(li4)

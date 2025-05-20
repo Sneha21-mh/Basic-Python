@@ -18,4 +18,3 @@ def st(s):
     return s[::-1]
 pr3=st(s)
 print(pr3)
-

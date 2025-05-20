@@ -9,13 +9,16 @@ for i in range(1,5,2):
     print(li[i],end=' ')
 print(' ')
 
+
 #even or odd
 li=[10,20,13,61,50]
-for i in range(0,5,1):
+for i in range(0,5):
     if li[i]%2==0:
         print(li[i], 'is a even element')
     else:
         print(li[i], 'is a odd element')
+print(' ')
+
 
 #sum
 li=[10,20,13,61,50]
@@ -23,6 +26,8 @@ sum = 0
 for i in li:
     sum=sum+i
 print('the sum is',sum)
+print(' ')
+
 
 #sum of even and odd elements
 li=[10,20,13,61,50]
@@ -35,6 +40,8 @@ for i in range(0,5,1):
         sum_odd=sum_odd+li[i]
 print('sum of even elements',sum_even)
 print('sum of odd elements',sum_odd)
+print(' ')
+
 
 #sum of elements at even and odd indices
 li=[10,20,13,61,50]
@@ -50,3 +57,4 @@ for i in range(1,5,2):
     sum_odd=sum_odd+li[i]
 print(sum_odd)
 print(' ')
+

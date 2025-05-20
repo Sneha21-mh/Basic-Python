@@ -1,5 +1,4 @@
 #list methods
-#list methods
 #append method
 li=[20]
 li.append(10)
@@ -31,6 +30,14 @@ li.insert(3,100)
 print(li)
 
 #use append method
+# 1. take an empty list
+# 2. read and store 10 elements from keyboard and store in list
+# 3. print all list elements
+# 4. ask user to enter a position and element from the keyboard, and insert that element before that position
+# 5. ask user to enter an element to delete from the list, and delete that element if it is available
+# 6. ask user to enter a position, and delete that element from the list if that position is available
+# 7. ask user to enter an element and print the position of that element if available, else print-1
+
 li = []
 print('enter the elements:')
 for i in range(10):
@@ -50,7 +57,7 @@ if delete in li:
     li.remove(delete)
     print(li)
 else:
-    print('It is not present int the list')
+    print('It is not present in the list')
 
 #use pop method
 dlt=int(input('enter the index from which element has to be deleted:'))
@@ -64,7 +71,6 @@ else:
 elem=int(input('enter the element whose index to be found:'))
 if elem in li:
     position=li.index(elem)
-    li.index(elem)
     print(position)
 else:
     print('-1')
